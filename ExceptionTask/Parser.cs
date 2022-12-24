@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
+﻿using System.Text.RegularExpressions;
 
 namespace ExceptionTask
 {
@@ -21,7 +16,7 @@ namespace ExceptionTask
                 });
             } else
             {
-                throw new NumberCanNotBeParsedExeption(parsingString);
+                throw new NumberCanNotBeParsedException(parsingString);
             }
             
             return result;

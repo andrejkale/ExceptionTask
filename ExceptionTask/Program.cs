@@ -1,5 +1,5 @@
 ﻿
 using ExceptionTask;
 
-double parsedNumber = Parser.ParseRealNumber("fsdsf23.232sdfsdf344.223", ".");
+double parsedNumber = Parser.ParseRealNumber("sfsdfsdf", ".");
 Console.WriteLine(parsedNumber);

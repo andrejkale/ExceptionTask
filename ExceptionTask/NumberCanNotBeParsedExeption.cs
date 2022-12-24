@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace ExceptionTask
 {
-    public class NumberCanNotBeParsedExeption : FormatException
+    public class NumberCanNotBeParsedException : FormatException
     {
-        public NumberCanNotBeParsedExeption() { }
+        public NumberCanNotBeParsedException() { }
 
-        public NumberCanNotBeParsedExeption(string number) 
+        public NumberCanNotBeParsedException(string number) 
             : base(String.Format("String: {0} doesn't contain a number", number))
         {
 
